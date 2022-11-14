@@ -12,7 +12,7 @@
     <center><h1>INDEX</h1></center>
     
     <a href='ejercicio1/index.jsp'>1. Construir la tabla de multiplicar 3 etiqueta expresion.</a><br>
-    <a href='ejercicio2/index.jsp'>2. Construir la tabla de multiplicar 3 out.print.</a>
+    <a href='ejercicio2/index.jsp'>2. Construir la tabla de multiplicar 3 etiqueta scriplets - out.print.</a>
 
 </body>
 </html>
