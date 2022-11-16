@@ -17,7 +17,6 @@
                 border: 2px solid #39c;
             }
         </style>
-
     </head>
     <body>
         <h1>7. Mostrar la fecha del sistema sepadado en cajas de texto distintas "Miercoles 16 Noviembre 2022"</h1>

@@ -17,8 +17,9 @@
     <a href='ejercicio4/index.jsp'>4. Construir la tabla de multiplicar seleccionando el número de un botón radio.</a><br>
     <a href='ejercicio5/index.jsp'>5. Construir la tabla de multiplicar seleccionando el número de un ComboBox(Lista Desplegable).</a><br>
     <a href='ejercicio6/index.jsp'>6. Traducir ingles-español usando un diccionario(hashmap).</a><br>
-    <a href='ejercicio7/index.jsp'>7. Mostrar la fecha del sistema sepadado en cajas de texto distintas "Miercoles 16 Noviembre 2022".</a>
-    <a href='ejercicio8/index.jsp'>8. MOSTRAR LOS AÑOS, MESES Y DIAS TRANSCURRIDOS A PARTIR DE UNA FECHA DE NACIMIENTO TOMADOS DE UN CONTROL DATE.</a>
-
+    <a href='ejercicio7/index.jsp'>7. Mostrar la fecha del sistema sepadado en cajas de texto distintas "Miercoles 16 Noviembre 2022".</a><br>
+    <a href='ejercicio8/index.jsp'>8. Mostrar los años, meses y dias transcurridos a partir de una fecha de nacimiento tomados de un control date.</a><br>
+    <a href='ejercicio9/index.jsp'>9. Hacer una calculadora con 4 botones suma, resta, multiplicación y división.</a><br>
+    <a href='ejercicio10/index.jsp'>10. Hacer una calculadora con 4 botones suma, resta, multiplicación y división (VERSION MEJORADA).</a><br>
 </body>
 </html>
