@@ -65,6 +65,7 @@
             if (salida == true) {
 
                 Collection coleccion = alumnos1_hm.values();
+       
 
                 for (Object o : coleccion) {
                     Alumno a = (Alumno) o;
