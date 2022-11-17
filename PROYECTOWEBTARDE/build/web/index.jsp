@@ -25,7 +25,7 @@
     <a href='ejercicio12/index.jsp'>12. Mostrar todos los registros de una tabla en mysql usando table</a><br>
     <a href='ejercicio13/index.jsp'>13. Resumen de componentes(controles) formulario html</a><br>
     <a href='ejercicio14/indexs.jsp'>14. Buscar un alumno y mostrarlo (Lista selección simple)</a><br>
-    <a href='ejercicio14/indexm.jsp'>15. Buscar varios alumnos y mostrarlo (Lista selección múltiple)</a><br>
+    <a href='ejercicio14/indexs_1.jsp'>15. Buscar varios alumnos y mostrarlo (Lista selección múltiple)</a><br>
     
 </body>
 </html>

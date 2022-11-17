@@ -16,6 +16,7 @@ public class OperacionesCrud {
         String usuario = "root";
         String clave = "12345678";
         try {
+            Class.forName("com.mysql.jdbc.Driver");//Registrar el driver
             conexion = DriverManager.getConnection(url, usuario, clave);
         } catch (Exception e) {
 
