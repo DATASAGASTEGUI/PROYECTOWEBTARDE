@@ -31,7 +31,7 @@
         </style>
     </head>
     <body>
-        <h1>11. Mostrar todos los registros de una tabla en mysql</h1>
+        <h1>11. Mostrar todos los registros de una tabla en mysql usando una cajita texto</h1>
 
         <%
             String url = "jdbc:mysql://localhost:3306/colegio"; //Protocolo-Ip-Puerto-DB

@@ -21,6 +21,11 @@
     <a href='ejercicio8/index.jsp'>8. Mostrar los años, meses y dias transcurridos a partir de una fecha de nacimiento tomados de un control date.</a><br>
     <a href='ejercicio9/index.jsp'>9. Hacer una calculadora con 4 botones suma, resta, multiplicación y división.</a><br>
     <a href='ejercicio10/index.jsp'>10. Hacer una calculadora con 4 botones suma, resta, multiplicación y división (VERSION MEJORADA).</a><br>
-    <a href='ejercicio11/index.jsp'>11. Mostrar todos los registros de una tabla en mysql</a><br>
+    <a href='ejercicio11/index.jsp'>11. Mostrar todos los registros de una tabla en mysql usando una cajita texto</a><br>
+    <a href='ejercicio12/index.jsp'>12. Mostrar todos los registros de una tabla en mysql usando table</a><br>
+    <a href='ejercicio13/index.jsp'>13. Resumen de componentes(controles) formulario html</a><br>
+    <a href='ejercicio14/indexs.jsp'>14. Buscar un alumno y mostrarlo (Lista selección simple)</a><br>
+    <a href='ejercicio14/indexm.jsp'>15. Buscar varios alumnos y mostrarlo (Lista selección múltiple)</a><br>
+    
 </body>
 </html>
