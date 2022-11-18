@@ -26,6 +26,7 @@
     <a href='ejercicio13/index.jsp'>13. Resumen de componentes(controles) formulario html</a><br>
     <a href='ejercicio14/indexs.jsp'>14. Buscar un alumno y mostrarlo (Lista selección simple)</a><br>
     <a href='ejercicio14/indexs_1.jsp'>15. Buscar varios alumnos y mostrarlo (Lista selección múltiple)</a><br>
+    <a href='pedro1/index.jsp'>15. Ejercicio Pedro 1</a><br>
     
 </body>
 </html>
