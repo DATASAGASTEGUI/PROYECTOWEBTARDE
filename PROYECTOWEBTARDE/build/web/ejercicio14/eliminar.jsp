@@ -46,6 +46,12 @@
                 oculto = request.getParameter("txtOculto");
                 if (crud.eliminarAlumno(oculto)) {
                     mensaje = "OK: ELIMINAR";
+                    alumnos_hm = crud.getHashMapAlumno();
+
+                    alumnos_tm = new TreeMap<>(alumnos_hm);
+
+                    claves = alumnos_tm.keySet();
+
                 } else {
                     mensaje = "ERROR: ELIMINAR";
                 }
@@ -61,14 +67,14 @@
 
                         if (s.equalsIgnoreCase(codigo)) {
                 %>           
-                           <option selected  value='<%=s%>'><%=s%></option>    
-                            
+                <option selected  value='<%=s%>'><%=s%></option>    
+
                 <%
-                        } else {
+                } else {
                 %>            
-                            
-                           <option           value='<%=s%>'><%=s%></option>    
-                            
+
+                <option           value='<%=s%>'><%=s%></option>    
+
                 <%
                         }
                     }
