@@ -80,6 +80,19 @@ public class OperacionesCrud {
         return "A" + numero; //A12
     }
 
+    public boolean eliminarAlumno(String codigoEliminar) {
+        boolean bandera = true;
+        String query = "DELETE FROM Alumno WHERE codigo = ?";
+        try {
+            PreparedStatement ps = conexion.prepareStatement(query);
+            ps.setString(1, codigoEliminar);
+            ps.executeUpdate();
+        } catch (Exception e) {
+            bandera = false;
+        }
+        return bandera;
+    }
+
     /*    
     public Zoologico getObjetoZoologico(String idZoo) {
         Zoologico zoologico = null;

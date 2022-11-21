@@ -14,7 +14,7 @@
         <title>16</title>
     </head>
     <body>
-    <center><h1>INSERTAR</h1></center>
+    <center><h1>16. Insertar un alumno</h1></center>
 
 
 
