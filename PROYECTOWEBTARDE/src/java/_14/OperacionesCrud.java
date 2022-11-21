@@ -46,6 +46,40 @@ public class OperacionesCrud {
         return alumnos_hm;
     }
 
+    public boolean insertarAlumno(Alumno alumno) {
+        boolean bandera = true;
+        String query = "INSERT INTO Alumno VALUES(?,?,?,?,?)";
+        try {
+            PreparedStatement ps = conexion.prepareStatement(query);
+            ps.setString(1, alumno.getCodigo());
+            ps.setString(2, alumno.getNombre());
+            ps.setInt(3, alumno.getEdad());
+            ps.setDouble(4, alumno.getEstatura());
+            ps.setString(5, alumno.getFoto());
+            ps.executeUpdate();
+        } catch (Exception e) {
+            bandera = false;
+        }
+        return bandera;
+    }
+
+    public String getCodigo() {
+        String query = "SELECT codigo FROM Alumno ORDER BY codigo DESC LIMIT 1";
+        String codigo = "";
+        int numero = 0;
+        try {
+            PreparedStatement ps = conexion.prepareStatement(query);
+            ResultSet rs = ps.executeQuery();
+            while (rs.next()) {
+                codigo = rs.getString(1); //A11
+            }
+            numero = Integer.parseInt(codigo.substring(1)) + 1;
+        } catch (Exception e) {
+
+        }
+        return "A" + numero; //A12
+    }
+
     /*    
     public Zoologico getObjetoZoologico(String idZoo) {
         Zoologico zoologico = null;
