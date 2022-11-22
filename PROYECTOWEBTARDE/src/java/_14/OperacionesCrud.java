@@ -93,6 +93,23 @@ public class OperacionesCrud {
         return bandera;
     }
 
+    public boolean actualizarAlumno(Alumno alumno) {
+        boolean bandera = true;
+        String query = "UPDATE Alumno SET nombre = ?, edad = ?, estatura = ?, foto = ? WHERE codigo = ?";
+        try {
+            PreparedStatement ps = conexion.prepareStatement(query);
+            ps.setString(1, alumno.getNombre());
+            ps.setInt(2, alumno.getEdad());
+            ps.setDouble(3, alumno.getEstatura());
+            ps.setString(4, alumno.getFoto());
+            ps.setString(5, alumno.getCodigo());
+            ps.executeUpdate();
+        } catch (Exception e) {
+            bandera = false;
+        }
+        return bandera;
+    }
+
     /*    
     public Zoologico getObjetoZoologico(String idZoo) {
         Zoologico zoologico = null;

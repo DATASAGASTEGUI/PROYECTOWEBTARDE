@@ -28,7 +28,7 @@
     <a href='ejercicio14/indexs_1.jsp'>15. Buscar varios alumnos y mostrarlo (Lista selección múltiple)</a><br>
     <a href='ejercicio14/insertar.jsp'>16. Insertar un alumno</a><br>
     <a href='ejercicio14/eliminar.jsp'>17. Eliminar un alumno</a><br>
-    
-    
+    <a href='ejercicio14/actualizar.jsp'>18. Actualizar un alumno</a><br>
+        
 </body>
 </html>
