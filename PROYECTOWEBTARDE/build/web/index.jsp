@@ -30,6 +30,15 @@
     <a href='ejercicio14/eliminar.jsp'>17. Eliminar un alumno</a><br>
     <a href='ejercicio14/actualizar.jsp'>18. Actualizar un alumno</a><br>
     <a href='ejercicio14/checkbox_seleccion_multiple.jsp'>19. Buscar varios alumnos y mostrarlo (checkbox selección múltiple)</a><br>
-    <a href='ejercicio15/index.jsp'>20. Convertir Coordenadas Cartesianas a Polares</a><br>    
+    <a href='ejercicio15/index.jsp'>20. Convertir Coordenadas Cartesianas a Polares</a><br>
+    
+    <h1>SERVLET (PEQUEÑO SERVIDOR)</h1>
+    
+    <a href='ejercicio16/index1.jsp'>21. Invocar un servlet usando una url</a><br>
+    <a href='ejercicio16/index2.jsp'>22. Invocar un servlet usando un botón</a><br>
+    <a href='ejercicio16/index3.jsp'>23. Desde un jsp enviar información a un servlet</a><br>
+    <a href='ejercicio16/index4.jsp'>24. Unificar los botones del ejercicio 23</a><br>
+    <a href='ejercicio16/index5.jsp'>25. Servlet envía los resultados al jsp que lo llama</a><br>
+    <a href='ejercicio16/index5.jsp'>26. Resolver ejericio 20 usando Servlet</a><br>
 </body>
 </html>
