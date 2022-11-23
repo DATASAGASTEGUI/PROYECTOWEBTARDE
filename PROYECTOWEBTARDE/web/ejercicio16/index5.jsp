@@ -20,8 +20,12 @@
             String numero1 = "";
             // SALIDA
             String resultado1 = "";
-            if((resultado1 = (String)request.getAttribute("resultado")) != null) {
-               numero1 = (String)request.getAttribute("numero"); 
+            if ((resultado1 = (String) request.getAttribute("resultado")) != null) {
+                numero1 = (String) request.getAttribute("numero");
+            }
+
+            if (resultado1 == null) {
+                resultado1 = "";
             }
         %>
 

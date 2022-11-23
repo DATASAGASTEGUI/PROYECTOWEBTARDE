@@ -39,6 +39,6 @@
     <a href='ejercicio16/index3.jsp'>23. Desde un jsp enviar información a un servlet</a><br>
     <a href='ejercicio16/index4.jsp'>24. Unificar los botones del ejercicio 23</a><br>
     <a href='ejercicio16/index5.jsp'>25. Servlet envía los resultados al jsp que lo llama</a><br>
-    <a href='ejercicio16/index5.jsp'>26. Resolver ejericio 20 usando Servlet</a><br>
+    <a href='ejercicio16/index6.jsp'>26. Resolver ejericio 20 usando Servlet</a><br>
 </body>
 </html>

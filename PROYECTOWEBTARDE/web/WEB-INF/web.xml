@@ -16,6 +16,10 @@
         <servlet-name>Servlet5</servlet-name>
         <servlet-class>mi_servlets.Servlet5</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Servlet6</servlet-name>
+        <servlet-class>mi_servlets.Servlet6</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Servlet1</servlet-name>
         <url-pattern>/Servlet1</url-pattern>
@@ -31,6 +35,10 @@
     <servlet-mapping>
         <servlet-name>Servlet5</servlet-name>
         <url-pattern>/Servlet5</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Servlet6</servlet-name>
+        <url-pattern>/Servlet6</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
