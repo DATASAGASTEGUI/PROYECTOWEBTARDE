@@ -16,8 +16,6 @@
     <body>
     <center><h1>16. Insertar un alumno</h1></center>
 
-
-
     <%
         OperacionesCrud crud = new OperacionesCrud("colegio");
         

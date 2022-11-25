@@ -1,23 +1,17 @@
-<%-- 
-    Document   : insertar
-    Created on : 21-nov-2022, 16:25:23
-    Author     : RYZEN
---%>
-
-<%@page import="_14.OperacionesCrud"%>
-<%@page import="_14.Alumno"%>
+<%@page import="misrc.Alumno"%>
+<%@page import="misrc.OperacionesCrud"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>16</title>
+        <title>INSERTAR</title>
     </head>
     <body>
-    <center><h1>16. Insertar un alumno</h1></center>
+    <center><h1>INSERTAR</h1></center>
 
     <%
-        OperacionesCrud crud = new OperacionesCrud("colegio");
+        OperacionesCrud crud = new OperacionesCrud(1);
         
         String codigo = crud.getCodigo();
         
@@ -41,7 +35,7 @@
                     foto);
 
 
-            if (crud.insertarAlumno(a)) {
+            if (crud.insetarAlumno(a)) {
                 mensaje = "OK: INSERTAR";
             } else {
                 mensaje = "ERROR: INSERTAR";
@@ -60,10 +54,6 @@
             <input type='submit' name='cmdNuevo' value='NUEVO' />
         </form>
     </center>
-
-
-
-
-
 </body>
 </html>
+

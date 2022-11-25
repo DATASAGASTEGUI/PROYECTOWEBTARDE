@@ -15,5 +15,6 @@
         <h1>INDEX</h1>
         <a href="mostrar.jsp">1. Mostrar</a><br>
         <a href="buscar.jsp">2. Buscar</a><br>
+        <a href="insertar.jsp">3. Insertar</a><br>
     </body>
 </html>
