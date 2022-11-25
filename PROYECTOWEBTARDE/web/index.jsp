@@ -28,6 +28,8 @@
     <a href='ejercicio14/indexs_1.jsp'>15. Buscar varios alumnos y mostrarlo (Lista selección múltiple)</a><br>
     <a href='ejercicio14/insertar.jsp'>16. Insertar un alumno</a><br>
     <a href='ejercicio14/eliminar.jsp'>17. Eliminar un alumno</a><br>
+    <a href='ejercicio14/eliminar1.jsp'>17. Eliminar un alumno confirmando con un javascript</a><br>
+    
     <a href='ejercicio14/actualizar.jsp'>18. Actualizar un alumno</a><br>
     <a href='ejercicio14/checkbox_seleccion_multiple.jsp'>19. Buscar varios alumnos y mostrarlo (checkbox selección múltiple)</a><br>
     <a href='ejercicio15/index.jsp'>20. Convertir Coordenadas Cartesianas a Polares</a><br>
